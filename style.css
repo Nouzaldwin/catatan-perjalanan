@@ -1,0 +1,36 @@
+.color{
+   
+    background: linear-gradient(-45deg,#f10ca5,#570638,#db64c7,#991b84);
+    background-size: 200% 200%;
+    box-shadow: none;
+    animation: gradientBG 10s ease infinite;
+}
+.color2{
+   
+    background: -webkit-linear-gradient(-45deg,#07f9f2,#11f20d,#00d4ff,#79ff00);
+    background-size: 200% 200%;
+    box-shadow: none;
+    animation: gradientBG 10s ease infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.color1{
+   
+    background: linear-gradient(-90deg,#f10ca5,#570638,#db64c7,#991b84);
+    background-size: 200% 200%;
+    box-shadow: none;
+    animation: gradientBG 10s ease infinite;
+}
+
+
+@keyframes gradientBG {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}

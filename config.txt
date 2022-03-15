@@ -1,0 +1,4 @@
+NIK|NAMA LENGKAP
+
+112233|aa
+776677|jarwo
